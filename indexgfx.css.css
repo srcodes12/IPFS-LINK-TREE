@@ -1,0 +1,436 @@
+
+  @font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url(./fonts/q.ttf); /*URL to font*/
+}
+  .opensea {
+    font-weight: bold;
+
+    font-family: YourFontName;
+    font-weight: 100px;
+    color: black;
+    font-size: 22px;
+
+    color: white;
+    margin: 10px;
+    border-color: red;
+    border: 20px;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+    border-radius: 2px;
+  }
+  .box10 {
+    justify-content: center;
+    margin: auto;
+  }
+  .opensea:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding-left: 22px;
+    padding-right: 22px;    
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+  }
+
+
+  .container-1 {
+    display: flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    background-color: rgb(72, 72, 72);
+    border-radius: 13px;
+    padding: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    width: 77%;
+    box-shadow: 20px 20px 20px black;
+    align-items: center;
+  }
+
+  .container-1 div {
+    justify-content: center;
+    border: 10px black;
+    border-radius: 15px;
+    padding-bottom: -2px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    width: 110%;
+    height: 115%;
+    overflow: hidden;
+    margin: 2px;
+  }
+  .boxstyle11 {
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .boxstyle12 {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .boxstyle13 {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .boxstyle14 {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .boxstyle15 {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .boxstyle16 {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .container-3 {
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(72, 72, 72);
+    border-radius: 13px;
+    padding: 0px;
+    padding-bottom: 0;
+    width: 44%;
+    box-shadow: 0px 8px 10px black;
+  }
+
+  .container-3 div {
+    justify-content: center;
+    border: 10px black;
+    border-radius: 15px;
+    padding-bottom: -2px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    width: 110%;
+    height: 115%;
+    overflow: hidden;
+    margin: 2px;
+    
+  }
+  .container-4 {
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: rgb(72, 72, 72);
+    border-radius: 13px;
+    padding: 0px;
+    padding-bottom: 0;
+    width: 44%;
+    box-shadow: 0px 8px 10px black;
+  }
+
+  .container-4 div {
+    justify-content: center;
+    border: 10px black;
+    border-radius: 15px;
+    padding-bottom: -2px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    width: 110%;
+    height: 115%;
+    overflow: hidden;
+    margin: 2px;
+    
+  }
+  #box-1 {
+    flex: 1;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  }
+  #box-1:hover {
+    box-shadow: 5px 5px 5px black;
+
+  }
+  
+  #box-2 {
+    flex: 1;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  }
+  #box-2:hover {
+    box-shadow: 5px 5px 5px black;
+  }
+  #box-3 {
+    flex: 1;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  }
+  #box-3:hover {
+    box-shadow: 5px 5px 5px black;
+  }
+
+  .container-2 {
+    margin-top: px;
+    text-align: center;
+    margin-right: 07px;
+  }
+
+  .container-2 div {
+    border: 10px black;
+    border-radius: 3px;
+  }
+
+  .xuxlogo {
+    margin-top: 450px;
+    height: 100px ;
+  padding-right: 20  0px;
+  object-fit: cover;
+  transition-delay: .1s;
+  transition-duration: .3s;
+  transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  border-radius: 2px;
+  }
+  .xuxlogo:hover {
+    transform: scale(1.1);
+    transition-duration: 2.2s;
+  }
+  .twtcontainer {
+    text-align: center;
+  }
+
+  .twtlogo {
+    margin: 0%;
+    height: 50px;
+    object-fit: cover;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  }
+  .twtlogo:hover {
+    transform: scale(1.1);
+  }
+  .BETA {
+    color: white;
+    font-style: italic;
+  }
+
+  #box-4 {
+    flex: 1;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  }
+  #box-4:hover {
+    box-shadow: 5px 5px 5px black;
+  }
+  #box-5 {
+    flex: 1;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  }
+  #box-5:hover {
+    box-shadow: 5px 5px 5px black;
+  }
+  #box-6 {
+    border-radius: 20px;
+    flex: 1;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
+  }
+  #box-6:hover {
+    box-shadow: 5px 5px 5px black;
+  }
+
+
+
+  .hmtl,
+  body {
+    margin: 0px;
+    background-image: linear-gradient( 025deg, maroon,rgb(79, 78, 78),black,rgb(37, 37, 37),darkgray);
+    background-size: 400%;
+    height: 100%;
+    animation: bg-animation 30s infinite alternate;
+  }
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+  .boardtext {
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pagetitle {
+    font-family: YourFontName;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: bold;
+    padding-top: 0px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .container-5 {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    margin-top: 450px;
+  }
+
+  .xuxgif {
+    border-radius: 50%;
+    width: 200px;
+  }
+
+  .container-6 {
+    display: flex;
+    height: auto;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+
+  .xuxcontainer {
+    text-align: center;
+  }
+  .container-10  {
+  display: flex;
+  height: auto;
+  margin: auto;
+  width: 95%;
+  background-color: rgb(88, 86, 86);
+  border-radius: 10px;
+  padding: 0px;
+  align-items: center;
+  margin-bottom: 300px;
+  box-shadow: 0px 5px 5px black;
+  
+  }
+  
+  .container-10 div {
+    border: 10px;
+    padding: 0px;
+    width: fit-content;
+    height: auto;
+    overflow:hidden;
+    
+  }
+
+  .al {
+    
+    order: 1;
+    width:auto;
+  }
+  .al:hover {
+    cursor: pointer;
+    
+  }
+
+  [hidden]{
+    display: none !important;
+  }
+
+  #boxa {
+    flex:1;
+    order: 2;
+  }
+  .ar {
+    
+    width: 5vh;
+    order: 3;
+  }
+  .ar:hover {
+    cursor: pointer;
+  }
+  .boxstyle33 {
+    width: 100%;
+    display: block;
+    transition-duration: 1.5s;
+  }
+  .boxstyle33:hover {
+    transform: scale(1.05);
+  }
+  .boxstyle44 {
+    width: 100%;
+    display: block;
+    transition-duration: 1.5s;
+  }
+  .boxstyle44:hover {
+    transform: scale(1.05);
+  }
+  .boxstyle55 {
+    width: 100%;
+    display: block;
+    transition-duration: 1.5s;
+  }
+  .boxstyle55:hover {
+    transform: scale(1.05);
+  }
+  .boxstyle66 {
+    width: 100%;
+    display: block;
+    transition-duration: 1.5s;
+  }
+  .boxstyle77:hover {
+    transform: scale(1.05);
+  }
+  .boxstyle88 {
+    width: 100%;
+    display: block;
+    transition-duration: 1.5s;
+  }
+  .boxstyle88:hover {
+    transform: scale(1.05);
+  }
+  .boxstyle4 {
+    width: 100%;
+    display: block;
+    transition-duration: .5s;
+  }
+  .boxstyle4:hover {
+    transform: scale(1.2);
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display:flex;
+    padding: 22px;
+    text-align: center;
+    vertical-align: center;
+    
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    order: 3;
+    margin: 3vh;
+  }
+  .left {
+    order: 1;
+    margin: 3vh;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
