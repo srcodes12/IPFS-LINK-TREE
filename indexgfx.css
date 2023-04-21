@@ -435,3 +435,8 @@
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
+
+  .donate {
+    justify-content: end;
+    size: 50px;
+  }
