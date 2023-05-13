@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, inital-scale=1">
   <link rel="stylesheet" type="text/css" href="indexgfx.css">
   <script src="gfxscript.js"></script>
-
-
+  <script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@0/+esm"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@0.20/dist/media-theme-element.js"
+    ></script>
   <div class="xuxcontainer">
     <img class="xuxlogo" src="./images/xuxlogo3.png" alt:home>
   </div>
@@ -90,20 +91,52 @@
       <img src="/images/zayek.jpg" class="boxstyle16" style="width: 100%;" alt="Graphic design work by xux">
     </a>
   </div>
-  <div id="box-6">
-    <video controls class="boxstyle16" style="width: 100%;">
-      <source src="/images/Comp 1_1.mp4" type="video/mp4" alt="Graphic design work by xux">
-    Your browser does not support .mp4 video. </video>
+  <div id="box-6" style="cursor: pointer;">
+    <template id="tiny-theme">
+      <media-controller>
+        
+        <slot name="media" slot="media"></slot>
+        <media-control-bar>
+          <media-play-button></media-play-button>
+        </media-control-bar>
+      </media-controller>
+    </template>
+    
+    <media-theme template="tiny-theme">
+      <video
+      autoplay muted
+      style="width: 100%"
+        slot="media"
+        src="/images/Comp 1_1.mp4"
+        type="video/mp4"
+      ></video>
+    </media-theme>
     </a>
   </div>
   <div id="box-6">
     <img src="/images/tgarden.png" class="boxstyle16" style="width: 100%;" alt="Graphic design work by xux">
   </a>
   </div>
-  <div id="box-6">
-    <video controls class="boxstyle16" style="width: 100%;">
-      <source src="/images/xuxvideointro.mp4" type="video/mp4" alt="Graphic design work by xux">
-    Your browser does not support .mp4 video. </video>
+  <div id="box-6" style="cursor: pointer;">
+    <template id="tiny-theme" >
+      <media-controller>
+        
+        <slot name="media" slot="media"></slot>
+        <media-control-bar>
+          <media-play-button></media-play-button>
+        </media-control-bar>
+      </media-controller>
+    </template>
+    
+    <media-theme template="tiny-theme">
+      <video
+      autoplay muted
+      style="width: 100%"
+        slot="media"
+        src="/images/xuxvideointro.mp4"
+        type="video/mp4"
+      ></video>
+    </media-theme>
     </a>
   </div>
   <div id="box-6">
