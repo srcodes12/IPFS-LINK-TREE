@@ -189,6 +189,7 @@
 
   .xuxlogo {
     margin-top: 450px;
+    margin-bottom: 15px;
     height: 100px ;
   padding-right: 20  0px;
   object-fit: cover;
@@ -201,19 +202,20 @@
     transform: scale(1.1);
     transition-duration: 2.2s;
   }
-  .twtcontainer {
+  .igcontainer {
     text-align: center;
+    margin-top: 20px;
   }
 
-  .twtlogo {
-    margin: 0%;
-    height: 50px;
+  .iglogo {
+    padding: 2px;
+    height: 40px;
     object-fit: cover;
     transition-delay: .1s;
     transition-duration: .3s;
     transition-timing-function: cubic-bezier(.35,1.08,.72,.91);
   }
-  .twtlogo:hover {
+  .iglogo:hover {
     transform: scale(1.1);
   }
   .BETA {
