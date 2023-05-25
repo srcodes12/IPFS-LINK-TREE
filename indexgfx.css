@@ -3,7 +3,7 @@
     font-family: 'YourFontName'; /*a name to be used later*/
     src: url(./fonts/q.ttf); /*URL to font*/
 }
-  .opensea {
+  .navstyle {
     font-weight: bold;
 
     font-family: YourFontName;
@@ -24,7 +24,7 @@
     justify-content: center;
     margin: auto;
   }
-  .opensea:hover {
+  .navstyle:hover {
     color: white;
     background-color: rgb(0, 0, 0);
     padding-left: 22px;
@@ -188,7 +188,7 @@
   }
 
   .xuxlogo {
-    margin-top: 450px;
+    margin-top: 250px;
     margin-bottom: 15px;
     height: 100px ;
   padding-right: 20  0px;
@@ -275,7 +275,7 @@
   }
 
   .pagetitle {
-    font-family: YourFontName;
+    font-family: 'YourFontName';
     font-size: 20px;
     font-weight: bold;
     padding-left: 9px;
@@ -442,3 +442,9 @@
     justify-content: end;
     size: 50px;
   }
+
+  .container-1 h1,
+  .container-1 label,
+  .container-1 input[type="submit"] {
+    font-family: 'YourFontName', sans-serif;
+}
