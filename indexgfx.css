@@ -443,7 +443,7 @@
     size: 50px;
   }
 
-  .container-1 h1,
+  .container-1 h1,h2,
   .container-1 label,
   .container-1 input[type="submit"] {
     font-family: 'YourFontName', sans-serif;
