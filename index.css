@@ -56,6 +56,7 @@
   justify-items: center;
   margin: 2px;
 }
+
 .boxstyle11 {
   border-radius: 10px;
   width: 100%;
@@ -437,4 +438,58 @@ box-shadow: 0px 5px 5px black;
 .container-1 label,
 .container-1 input[type="submit"] {
   font-family: 'YourFontName', sans-serif;
+}
+
+.services {
+  display: flex;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:hidden;
+  background-color: rgb(43, 43, 43);
+  border-radius: 13px;
+  padding: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  width: 66%;
+  box-shadow: 20px 20px 20px black;
+  align-items: center;
+}
+.services div {
+  justify-content: center;
+  border: 10px black;
+  border-radius: 15px;
+  padding-bottom: -2px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  width: 98%;
+  height: 90%;
+  overflow: hidden;
+  justify-items: center;
+  margin: 2px;
+}
+
+.left-section {
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.right-section {
+  flex-grow: 0;
+  background-color: #e0e0e0;
+  padding: 20px;
+  width: 30%;
+}
+
+.servicescontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mt-5 {
+  margin-top: 5vh;
+}
+
+.rounded-4 {
+  border-radius: 4px;
 }

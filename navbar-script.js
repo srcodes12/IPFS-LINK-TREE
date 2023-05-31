@@ -5,3 +5,8 @@ fetch('navbar.html')
     // Insert the navbar content into the placeholder div
     document.getElementById('navbar-placeholder').innerHTML = html;
   });
+
+
+
+
+  
